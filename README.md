@@ -12,12 +12,6 @@ Professional collection of three small, well-structured C++ console programs dem
 - [Project Overview](#project-overview)  
 - [Files & Icons](#files--icons)  
 - [Features](#features)  
-- [Build & Run](#build--run)  
-- [Examples](#examples)  
-- [Improvements & Notes](#improvements--notes)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [References](#references)
 
 ---
 
