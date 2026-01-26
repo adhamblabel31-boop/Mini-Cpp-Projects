@@ -1,58 +1,48 @@
-<!-- ===================== GLOBAL STYLE ===================== -->
-<div style="background-color:#000000; color:#EDEDED; padding:40px; font-family:Segoe UI, Arial, sans-serif;">
+<div align="center">
 
-<!-- ===================== HEADER ===================== -->
-<h1 align="center" style="color:#4B0082; font-size:48px; margin-bottom:5px;">
-  Adham
-</h1>
+<h1 style="color: #4B0082; font-size: 3em; letter-spacing: 2px;">ADHAM</h1>
 
-<h2 align="center" style="font-weight:600; margin-top:0;">
-  C++ Console Applications Portfolio
-</h2>
+<p><strong>C++ CORE UTILITIES & LOGIC IMPLEMENTATIONS</strong></p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue.svg" />
-  <img src="https://img.shields.io/badge/Status-Completed-success.svg" />
-  <img src="https://img.shields.io/badge/Level-Intermediate-purple.svg" />
+![C++](https://img.shields.io/badge/Language-C++17-00599C?style=for-the-badge&logo=c%2B%2B)
+![Status](https://img.shields.io/badge/Status-Maintained-success?style=for-the-badge)
+![Code Size](https://img.shields.io/badge/Focus-System_Logic-orange?style=for-the-badge)
+
+<br>
+
+<p align="left">
+  This repository hosts a collection of C++ programs demonstrating proficiency in structured programming, control flow, and algorithmic problem-solving. Each module is designed with a focus on clean code principles, modularity, and user input validation.
 </p>
 
----
-
-## 📌 Project Overview
-
-This repository contains **three structured C++ console applications** demonstrating clean code practices, modular logic, and real-world problem solving.  
-Each program focuses on **input validation**, **control flow**, and **user-oriented design**, suitable for academic and portfolio use.
+</div>
 
 ---
 
-## 📁 Source Files
+## 📂 Project Structure
 
-### 🏋️ `gym.c++`
-A **menu-driven gym management module** featuring:
-- Password-protected access
-- Multiple training systems
-- Structured user navigation
-- Clear separation of logic blocks
-
-### 💰 `salary.c++`
-An **employee salary calculator** that includes:
-- Overtime calculation
-- Input validation
-- Accurate payroll computation
-- Robust conditional handling
-
-### 🎓 `school.c++`
-A **student grading system** that:
-- Computes total and average scores
-- Determines final grade classification
-- Handles structured academic data cleanly
+| File | Module Type | Description |
+| :--- | :--- | :--- |
+| **`gym.c++`** | <div align="center">💪<br><sub>Fitness System</sub></div> | **Workout Selector & Auth System**<br>A secure, menu-driven application featuring password protection. It guides users through various training systems and workout selections based on user preferences. |
+| **`salary.c++`** | <div align="center">💵<br><sub>Finance</sub></div> | **Payroll Calculation Engine**<br>Automates employee compensation workflows. Includes algorithms for overtime computation, tax considerations, and strict input validation to ensure data integrity. |
+| **`school.c++`** | <div align="center">🎓<br><sub>Education</sub></div> | **Academic Grading System**<br>A statistical tool for academic assessment. Calculates weighted averages, total scores, and determines final letter grades based on performance metrics. |
 
 ---
 
-## ⚙️ Build & Run
+## 🛠 Skills Demonstrated
 
-Compile and run any file using `g++`:
+* **Core Logic:** Complex conditional statements (`if/else`, `switch`) and loops.
+* **Input Validation:** Robust handling of user errors and data types.
+* **Authentication:** Basic password protection and access control mechanisms.
+* **Arithmetic Operations:** Precision calculations for financial and statistical data.
+* **UI/UX:** CLI menu design and user flow optimization.
 
+---
+
+## 🚀 Build & Run
+
+Ensure you have the GNU Compiler Collection (`g++`) installed.
+
+### 1. Clone the Repository
 ```bash
-g++ gym.c++ -o gym
-./gym
+git clone [https://github.com/adham/cpp-utilities.git](https://github.com/adham/cpp-utilities.git)
+cd cpp-utilities
