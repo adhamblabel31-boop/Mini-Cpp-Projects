@@ -1,58 +1,62 @@
-<div style="background-color:#000000; padding:20px; border-radius:12px">
+# CPP Mini Projects — Gym · Salary · School
 
-<h1 align="center">
-  <span style="color:#7b2cbf;">Adham</span> — CPP Mini Projects
-</h1>
+[![Language: C++](https://img.shields.io/badge/language-C%2B%2B-blue.svg)](https://isocpp.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)]
+[![Status: Complete](https://img.shields.io/badge/status-Complete-success.svg)]
 
-<p align="center" style="color:#cccccc;">
-  Professional C++ Console Applications · Clean Code · Modular Design
-</p>
+Professional collection of three small, well-structured C++ console programs demonstrating menu-driven design, input validation, and modular functions.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/language-C%2B%2B-blue.svg">
-  <img src="https://img.shields.io/badge/status-Complete-success.svg">
-  <img src="https://img.shields.io/badge/level-Junior%20Developer-purple.svg">
-</p>
+---
 
-<hr style="border:1px solid #333">
+## Table of Contents
+- [Project Overview](#project-overview)  
+- [Files & Icons](#files--icons)  
+- [Features](#features)  
+- [Build & Run](#build--run)  
+- [Examples](#examples)  
+- [Improvements & Notes](#improvements--notes)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [References](#references)
 
-<h2 style="color:#7b2cbf;">📦 Projects Overview</h2>
+---
 
-<p style="color:#dddddd;">
-This repository contains three structured C++ console applications demonstrating
-input validation, conditional logic, and modular program design.
-Each project is standalone and suitable for learning, practice, and portfolio use.
-</p>
+## Project Overview
+This repository contains three standalone C++ console programs intended as clean, teachable examples and small utilities:
 
-<h2 style="color:#7b2cbf;">📁 Files</h2>
+- Clear function separation
+- Input validation using `std::cin` and `std::numeric_limits`
+- Readiness for small refactors (e.g., OOP migration or file I/O)
+- Suitable for portfolio inclusion and further extension
 
-<ul style="color:#dddddd;">
-  <li>🏋️‍♂️ <b>gym.c++</b> — Gym workout system with password-protected menu and training plans.</li>
-  <li>💰 <b>salary.c++</b> — Employee salary calculator with overtime computation.</li>
-  <li>🎓 <b>school.c++</b> — Student grading system calculating total, average, and final grade.</li>
-</ul>
+---
 
-<h2 style="color:#7b2cbf;">⚙️ Build & Run</h2>
+## Files & Icons
 
-<pre style="background-color:#111; color:#00ffcc; padding:10px; border-radius:8px;">
-g++ -std=c++17 gym.c++ -o gym
-g++ -std=c++17 salary.c++ -o salary
-g++ -std=c++17 school.c++ -o school
-</pre>
+- 🏋️‍♂️ **`gym.c++`**  
+  ![file-gym](https://img.shields.io/badge/file-gym.c%2B%2B-blue.svg)  
+  **Description:** Menu-driven gym workout selector with password-protected entry and predefined training systems (Upper/Lower, Push/Pull/Legs, Full Body). Focus: control flow and user interaction.
 
-<h2 style="color:#7b2cbf;">🚀 Skills Demonstrated</h2>
+- 💰 **`salary.c++`**  
+  ![file-salary](https://img.shields.io/badge/file-salary.c%2B%2B-yellow.svg)  
+  **Description:** Employee salary calculator that computes overtime compensation and total salary. Focus: arithmetic, conditional logic, and input validation.
 
-<ul style="color:#dddddd;">
-  <li>Clean C++ syntax and structure</li>
-  <li>Input validation and error handling</li>
-  <li>Functions and separation of concerns</li>
-  <li>Readable and maintainable code</li>
-</ul>
+- 🎓 **`school.c++`**  
+  ![file-school](https://img.shields.io/badge/file-school.c%2B%2B-orange.svg)  
+  **Description:** Student grade processor accepting subject scores, computing totals/averages and mapping to letter grades. Focus: validation, separation of concerns, and formatting output.
 
-<hr style="border:1px solid #333">
+> Each file is standalone — compile and run individually.
 
-<p align="center" style="color:#888888;">
-© 2026 <span style="color:#7b2cbf;">Adham</span> — Built with focus and discipline
-</p>
+---
 
-</div>
+## Features
+- Small, readable codebases ideal for learning/refinement
+- Robust input validation (`cin.fail()` + `numeric_limits`)
+- Clear function boundaries (I/O, processing, output)
+- No `using namespace std;` — follows best practice to avoid polluting the global namespace
+- Easily extensible to:
+  - OOP structure
+  - File-based input/output
+  - Unit tests
+
+
