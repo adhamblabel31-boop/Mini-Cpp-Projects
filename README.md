@@ -1,81 +1,58 @@
-# CPP Mini Projects — Gym · Salary · School
+<div style="background-color:#000000; padding:20px; border-radius:12px">
 
-[![Language: C++](https://img.shields.io/badge/language-C%2B%2B-blue.svg)](https://isocpp.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)]
-[![Status: Complete](https://img.shields.io/badge/status-Complete-success.svg)]
+<h1 align="center">
+  <span style="color:#7b2cbf;">Adham</span> — CPP Mini Projects
+</h1>
 
-Professional collection of three small, well-structured C++ console programs demonstrating menu-driven design, input validation, and modular functions.
+<p align="center" style="color:#cccccc;">
+  Professional C++ Console Applications · Clean Code · Modular Design
+</p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/language-C%2B%2B-blue.svg">
+  <img src="https://img.shields.io/badge/status-Complete-success.svg">
+  <img src="https://img.shields.io/badge/level-Junior%20Developer-purple.svg">
+</p>
 
-## Table of Contents
-- [Project Overview](#project-overview)  
-- [Files & Icons](#files--icons)  
-- [Features](#features)  
-- [Build & Run](#build--run)  
-- [Examples](#examples)  
-- [Improvements & Notes](#improvements--notes)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [References](#references)
+<hr style="border:1px solid #333">
 
----
+<h2 style="color:#7b2cbf;">📦 Projects Overview</h2>
 
-## Project Overview
-This repository contains three standalone C++ console programs intended as clean, teachable examples and small utilities:
+<p style="color:#dddddd;">
+This repository contains three structured C++ console applications demonstrating
+input validation, conditional logic, and modular program design.
+Each project is standalone and suitable for learning, practice, and portfolio use.
+</p>
 
-- Clear function separation
-- Input validation using `std::cin` and `std::numeric_limits`
-- Readiness for small refactors (e.g., OOP migration or file I/O)
-- Suitable for portfolio inclusion and further extension
+<h2 style="color:#7b2cbf;">📁 Files</h2>
 
----
+<ul style="color:#dddddd;">
+  <li>🏋️‍♂️ <b>gym.c++</b> — Gym workout system with password-protected menu and training plans.</li>
+  <li>💰 <b>salary.c++</b> — Employee salary calculator with overtime computation.</li>
+  <li>🎓 <b>school.c++</b> — Student grading system calculating total, average, and final grade.</li>
+</ul>
 
-## Files & Icons
+<h2 style="color:#7b2cbf;">⚙️ Build & Run</h2>
 
-- 🏋️‍♂️ **`gym.c++`**  
-  ![file-gym](https://img.shields.io/badge/file-gym.c%2B%2B-blue.svg)  
-  **Description:** Menu-driven gym workout selector with password-protected entry and predefined training systems (Upper/Lower, Push/Pull/Legs, Full Body). Focus: control flow and user interaction.
+<pre style="background-color:#111; color:#00ffcc; padding:10px; border-radius:8px;">
+g++ -std=c++17 gym.c++ -o gym
+g++ -std=c++17 salary.c++ -o salary
+g++ -std=c++17 school.c++ -o school
+</pre>
 
-- 💰 **`salary.c++`**  
-  ![file-salary](https://img.shields.io/badge/file-salary.c%2B%2B-yellow.svg)  
-  **Description:** Employee salary calculator that computes overtime compensation and total salary. Focus: arithmetic, conditional logic, and input validation.
+<h2 style="color:#7b2cbf;">🚀 Skills Demonstrated</h2>
 
-- 🎓 **`school.c++`**  
-  ![file-school](https://img.shields.io/badge/file-school.c%2B%2B-orange.svg)  
-  **Description:** Student grade processor accepting subject scores, computing totals/averages and mapping to letter grades. Focus: validation, separation of concerns, and formatting output.
+<ul style="color:#dddddd;">
+  <li>Clean C++ syntax and structure</li>
+  <li>Input validation and error handling</li>
+  <li>Functions and separation of concerns</li>
+  <li>Readable and maintainable code</li>
+</ul>
 
-> Each file is standalone — compile and run individually.
+<hr style="border:1px solid #333">
 
----
+<p align="center" style="color:#888888;">
+© 2026 <span style="color:#7b2cbf;">Adham</span> — Built with focus and discipline
+</p>
 
-## Features
-- Small, readable codebases ideal for learning/refinement
-- Robust input validation (`cin.fail()` + `numeric_limits`)
-- Clear function boundaries (I/O, processing, output)
-- No `using namespace std;` — follows best practice to avoid polluting the global namespace
-- Easily extensible to:
-  - OOP structure
-  - File-based input/output
-  - Unit tests
-
----
-
-## Build & Run
-
-### Requirements
-- `g++` (recommended `g++` >= 7) or any modern C++ compiler
-- Tested with `-std=c++17` but compatible with C++11 where shown features used
-
-### Compile commands
-Run these from the repository root.
-
-```bash
-# Compile gym
-g++ -std=c++17 -O2 gym.c++ -o gym
-
-# Compile salary
-g++ -std=c++17 -O2 salary.c++ -o salary
-
-# Compile school
-g++ -std=c++17 -O2 school.c++ -o school
+</div>
