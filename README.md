@@ -1,56 +1,58 @@
-# CPP Mini Projects — Gym · Salary · School
+<!-- ===================== GLOBAL STYLE ===================== -->
+<div style="background-color:#000000; color:#EDEDED; padding:40px; font-family:Segoe UI, Arial, sans-serif;">
 
-[![Language: C++](https://img.shields.io/badge/language-C%2B%2B-blue.svg)](https://isocpp.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)]
-[![Status: Complete](https://img.shields.io/badge/status-Complete-success.svg)]
+<!-- ===================== HEADER ===================== -->
+<h1 align="center" style="color:#4B0082; font-size:48px; margin-bottom:5px;">
+  Adham
+</h1>
 
-Professional collection of three small, well-structured C++ console programs demonstrating menu-driven design, input validation, and modular functions.
+<h2 align="center" style="font-weight:600; margin-top:0;">
+  C++ Console Applications Portfolio
+</h2>
 
----
-
-## Table of Contents
-- [Project Overview](#project-overview)  
-- [Files & Icons](#files--icons)  
-- [Features](#features)  
-
----
-
-## Project Overview
-This repository contains three standalone C++ console programs intended as clean, teachable examples and small utilities:
-
-- Clear function separation
-- Input validation using `std::cin` and `std::numeric_limits`
-- Readiness for small refactors (e.g., OOP migration or file I/O)
-- Suitable for portfolio inclusion and further extension
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue.svg" />
+  <img src="https://img.shields.io/badge/Status-Completed-success.svg" />
+  <img src="https://img.shields.io/badge/Level-Intermediate-purple.svg" />
+</p>
 
 ---
 
-## Files & Icons
+## 📌 Project Overview
 
-- 🏋️‍♂️ **`gym.c++`**  
-  ![file-gym](https://img.shields.io/badge/file-gym.c%2B%2B-blue.svg)  
-  **Description:** Menu-driven gym workout selector with password-protected entry and predefined training systems (Upper/Lower, Push/Pull/Legs, Full Body). Focus: control flow and user interaction.
-
-- 💰 **`salary.c++`**  
-  ![file-salary](https://img.shields.io/badge/file-salary.c%2B%2B-yellow.svg)  
-  **Description:** Employee salary calculator that computes overtime compensation and total salary. Focus: arithmetic, conditional logic, and input validation.
-
-- 🎓 **`school.c++`**  
-  ![file-school](https://img.shields.io/badge/file-school.c%2B%2B-orange.svg)  
-  **Description:** Student grade processor accepting subject scores, computing totals/averages and mapping to letter grades. Focus: validation, separation of concerns, and formatting output.
-
-> Each file is standalone — compile and run individually.
+This repository contains **three structured C++ console applications** demonstrating clean code practices, modular logic, and real-world problem solving.  
+Each program focuses on **input validation**, **control flow**, and **user-oriented design**, suitable for academic and portfolio use.
 
 ---
 
-## Features
-- Small, readable codebases ideal for learning/refinement
-- Robust input validation (`cin.fail()` + `numeric_limits`)
-- Clear function boundaries (I/O, processing, output)
-- No `using namespace std;` — follows best practice to avoid polluting the global namespace
-- Easily extensible to:
-  - OOP structure
-  - File-based input/output
-  - Unit tests
+## 📁 Source Files
 
+### 🏋️ `gym.c++`
+A **menu-driven gym management module** featuring:
+- Password-protected access
+- Multiple training systems
+- Structured user navigation
+- Clear separation of logic blocks
 
+### 💰 `salary.c++`
+An **employee salary calculator** that includes:
+- Overtime calculation
+- Input validation
+- Accurate payroll computation
+- Robust conditional handling
+
+### 🎓 `school.c++`
+A **student grading system** that:
+- Computes total and average scores
+- Determines final grade classification
+- Handles structured academic data cleanly
+
+---
+
+## ⚙️ Build & Run
+
+Compile and run any file using `g++`:
+
+```bash
+g++ gym.c++ -o gym
+./gym
