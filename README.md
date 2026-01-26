@@ -1,4 +1,4 @@
-```markdown
+
 <div align="center">
 
 <h1 style="color: #4B0082; font-size: 3em; letter-spacing: 2px;">ADHAM</h1>
@@ -44,11 +44,11 @@
 Ensure you have the GNU Compiler Collection (`g++`) installed.
 
 ### 1. Clone the Repository
-```bash
+
 git clone [https://github.com/adham/cpp-utilities.git](https://github.com/adham/cpp-utilities.git)
 cd cpp-utilities
 
-```
+
 
 ### 2. Compile and Run
 
@@ -56,34 +56,33 @@ Each file is standalone. Use the following commands to execute a specific module
 
 **Gym System**
 
-```bash
+
 g++ gym.c++ -o gym
 ./gym
 
-```
+
 
 **Salary Calculator**
 
-```bash
+
 g++ salary.c++ -o salary
 ./salary
 
-```
+
 
 **Grading System**
 
-```bash
+
 g++ school.c++ -o school
 ./school
 
-```
 
----
+
 
 <div align="center">
 <sub>&copy; 2024 Adham. Built with C++.</sub>
 </div>
 
-```
 
-```
+
+
