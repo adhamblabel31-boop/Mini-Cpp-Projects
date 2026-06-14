@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
+bool cont = true;
 const string checkPassword = "9016";
 void Password()
 {
@@ -35,12 +35,12 @@ int TakeSystem()
     cout << "------------------------------------" << endl;
     cout << "------ plz choose your system ------" << endl;
     cout << "------------------------------------" << endl;
-    
+
     cout << "1.Upper / Lower" << endl;
     cout << "2.Push / Pull / Leg" << endl;
     cout << "3.Full Body" << endl;
     cout << "4.Exit" << endl;
-    
+
     while (true)
     {
         cin >> systemchioser;
@@ -60,9 +60,7 @@ int TakeSystem()
         {
             cout << "\nenter 1 or 2 or 3 or 4\n";
         }
-
     }
-    
 }
 
 int UL()
@@ -92,7 +90,6 @@ int UL()
             cout << "\nenter 1 or 2\n";
         }
     }
-    
 }
 void Upper()
 {
@@ -148,9 +145,7 @@ int PPL()
         {
             cout << "\nenter 1 or 2 or 3\n";
         }
-
     }
-    
 }
 void Push()
 {
@@ -192,86 +187,91 @@ void FullBody()
     cout << "Plank\n\n\n";
 }
 
-int main()
+void choosing()
 {
-    Password();
-    bool cont = true;
-    while (cont)
+    int systemchioser = TakeSystem();
+    switch (systemchioser)
     {
-        int systemchioser = TakeSystem();
-        switch (systemchioser)
+    case 1:
+    {
+        int ul = UL();
+        switch (ul)
         {
         case 1:
         {
-            int ul = UL();
-            switch (ul)
-            {
-            case 1:
-            {
-                Upper();
-                break;
-            }
+            Upper();
+            break;
+        }
 
-            case 2:
-            {
-                lowerLeg();
-                break;
-            }
+        case 2:
+        {
+            lowerLeg();
+            break;
+        }
 
-            default:
-                cout << "\"Not avaliable !\"";
-                break;
-            }
+        default:
+            cout << "\"Not avaliable !\"";
+            break;
+        }
 
+        break;
+    }
+    case 2:
+    {
+        int ppl = PPL();
+        switch (ppl)
+        {
+        case 1:
+        {
+            Push();
             break;
         }
         case 2:
         {
-            int ppl = PPL();
-            switch (ppl)
-            {
-            case 1:
-            {
-                Push();
-                break;
-            }
-            case 2:
-            {
-                Pull();
-                break;
-            }
-            case 3:
-            {
-                lowerLeg();
-                break;
-            }
-
-            default:
-            {
-                cout << "\"Not avaliable !\"";
-                break;
-            }
-            }
-
+            Pull();
             break;
         }
         case 3:
         {
-            FullBody();
+            lowerLeg();
             break;
         }
-        case 4:
-        {
-            cont = false;
-            cout << "Work hard \n\n\n";
-            break;
-        }
+
         default:
         {
-            cout << "\"Not avaliable !\"\n\n\n";
+            cout << "\"Not avaliable !\"";
             break;
         }
         }
+
+        break;
+    }
+    case 3:
+    {
+        FullBody();
+        break;
+    }
+    case 4:
+    {
+        cont = false;
+        cout << "Work hard \n\n\n";
+        break;
+    }
+    default:
+    {
+        cout << "\"Not avaliable !\"\n\n\n";
+        break;
+    }
+    }
+}
+
+int main()
+{
+    Password();
+
+    while (cont)
+    {
+        choosing();
     }
     return 0;
 }
